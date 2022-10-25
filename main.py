@@ -1,17 +1,19 @@
-def shiftN(stringvalue, direction, N):
+
+
+##################################################
+# Make your lambda "isspace( ) "
+##################################################
+
+
+def mystrip(strval):
     ##################################################
     # make your code
     ##################################################
-    return stringvalue
+    # Call lambda funcion here
+    ##################################################
+    return yourvariable
 
 
-str = '001100'
-print(int(str, 2))
-rstr = shiftN(str, 0, 2)
-print(rstr)
-print(int(rstr, 2))
-
-rstr = '110000'
-rstr = shiftN(rstr, 1, 4)
-print(rstr)
-print(int(rstr, 2))
+strval = 'Python Programming Section 1'
+ret = mystrip(strval)
+print(ret)
