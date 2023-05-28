@@ -1,24 +1,18 @@
-
-
-##################################################
-# Make your lambda "isspace "
-##################################################
-
+"""
+########################################
+Code Your lambda Program here
+########################################
+"""
+isspace = lambda 
 
 def mystrip(strval):
-    ##################################################
-    # make your code
-    ##################################################
-    # Call lambda funcion "isspace"
-    ##################################################
-    return yourvariable
+    strip = ''
+    for v in strval:
+        if not isspace(v):
+            strip += v
+    return strip
 
 
-def main():
-    strval = 'Python Programming Section 1'
-    ret = mystrip(strval)
-    print(ret)
-
-
-if __name__ == '__main__':
-    main()
+strval = 'Python Programming\t Section 1\n'
+ret = mystrip(strval)
+print(ret)
