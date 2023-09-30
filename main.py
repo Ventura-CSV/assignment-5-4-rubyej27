@@ -1,9 +1,10 @@
 """
 ########################################
 Code Your lambda Program here
+isspace = lambda 
 ########################################
 """
-isspace = lambda 
+
 
 def mystrip(strval):
     strip = ''
