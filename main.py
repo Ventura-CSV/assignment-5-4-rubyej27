@@ -1,4 +1,4 @@
-isspace = lambda v: True if v = " " or v = "\t" or v = "\n" else False
+isspace = lambda v: True if v == " " or v == "\t" or v == "\n" else False
 
 def mystrip(strval):
    strip = ''
